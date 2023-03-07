@@ -1,6 +1,6 @@
-<div class="contenedor">
-    <h1>UpTask</h1>
-    <p>Crea y administra tus proyectos</p>
+<div class="contenedor login">
+    <h1 class="uptask">UpTask</h1>
+    <p class="tagline">Crea y administra tus proyectos</p>
 
     <div class="contenedor-sm">
         <p class="descripcion-pagina">Iniciar sesión</p>
@@ -14,7 +14,9 @@
                     id="email"
                     placeholder="ejemplo@mailbox.com"
                 />
+            </div>
 
+            <div class="campo">
                 <label for="password">Password</label>
                 <input
                     type="password"
